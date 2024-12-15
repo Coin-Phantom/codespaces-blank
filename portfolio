@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A portfolio of meme coins: AIP Coin, UFC20 Coin, and BROKE Coin.">
+    <title>Meme Coin Portfolio - AIP, UFC20, and BROKE Coin</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        .coin-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .coin-card {
+            flex: 1;
+            padding: 20px;
+            margin: 10px;
+            background-color: #eaeaea;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .coin-card h3 {
+            color: #333;
+        }
+
+        .coin-card p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        .coin-card ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .coin-card ul li {
+            padding: 5px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+
+        .cta-button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .cta-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Meme Coin Portfolio</h1>
+    <p>Introducing AIP Coin, UFC20 Coin, and BROKE Coin</p>
+</header>
+
+<section id="introduction">
+    <h2>Welcome to Our Meme Coin Portfolio</h2>
+    <p>We’ve created a portfolio of three exciting meme-inspired cryptocurrencies. Each coin has its own unique vibe, from AI-powered insights to the chaotic fun of pump-and-dump culture. Here’s a look at each of our coins:</p>
+</section>
+
+<section id="coins">
+    <div class="coin-section">
+        <div class="coin-card">
+            <h3>AIP Coin</h3>
+            <p>AIP Coin is a futuristic, meme-inspired cryptocurrency tapping into the world of AI and automation. It’s perfect for tech enthusiasts and crypto traders who enjoy automated profits and predictions.</p>
+            <ul>
+                <li><strong>Tokenomics:</strong> Total Supply: 1,000,000,000 AIP</li>
+                <li><strong>Staking Rewards:</strong> 1% annual staking yield</li>
+                <li><strong>Transaction Fee:</strong> 1% (0.5% for staking, 0.5% for governance)</li>
+            </ul>
+            <a href="#aip-cta" class="cta-button">Learn More</a>
+        </div>
+
+        <div class="coin-card">
+            <h3>UFC20 Coin</h3>
+            <p>UFC20 Coin connects the world of cryptocurrency with the excitement of UFC. Fans can stake UFC20, vote on matchups, and get exclusive event access.</p>
+            <ul>
+                <li><strong>Tokenomics:</strong> Total Supply: 1,000,000,000 UFC20</li>
+                <li><strong>Transaction Fee:</strong> 1% (1/2 for staking, 1/2 for liquidity)</li>
+                <li><strong>Use Cases:</strong> Fan engagement, event tickets, exclusive NFTs</li>
+            </ul>
+            <a href="#ufc20-cta" class="cta-button">Learn More</a>
+        </div>
+
+        <div class="coin-card">
+            <h3>BROKE Coin</h3>
+            <p>BROKE Coin is a fun, satirical meme token for those who enjoy the unpredictability of crypto markets. Join us for a ride where we celebrate getting rich or getting broke!</p>
+            <ul>
+                <li><strong>Tokenomics:</strong> Total Supply: 1,000,000,000 BROKE Coin</li>
+                <li><strong>Transaction Fee:</strong> 2% (1% for redistribution, 1% for liquidity)</li>
+                <li><strong>Use Cases:</strong> Meme culture, random airdrops, and playful trading</li>
+            </ul>
+            <a href="#broke-cta" class="cta-button">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<section id="roadmap">
+    <h2>Our Roadmap</h2>
+    <p>We have exciting plans ahead for AIP, UFC20, and BROKE Coin. Stay tuned for new partnerships, listings, and updates!</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to collaborate? Get in touch with us below:</p>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2024 Meme Coin Portfolio. All Rights Reserved.</p>
+    <p>Join our community on <a href="https://discord.com" target="_blank" style="color:white;">Discord</a> | Follow us on <a href="https://twitter.com" target="_blank" style="color:white;">Twitter</a></p>
+</footer>
+
+</body>
+</html>
